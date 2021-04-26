@@ -13,7 +13,7 @@ class campaign_userSeeder extends Seeder
     {
         DB::table('campaign_user')->insert([
             
-         'campaign_id'=>'52',
+         'campaign_id'=>'1', //actaul value is 52
          'user_id'=>'3',
          'state_id'=>'2',
          'created_at'=>'2021-04-21 20:53:47',

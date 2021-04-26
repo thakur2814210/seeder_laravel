@@ -10,10 +10,10 @@ class Chatroom_users_Seeder extends Seeder
     
     public function run()
     {
-        /*
+        
         DB::table('chatroom_users')->insert([
           
-          it is left for later due to integrity constraint issue
+         
           [
             'chatroom_id'=>'4',      
             'user_id'=>'1',  
@@ -29,6 +29,6 @@ class Chatroom_users_Seeder extends Seeder
             'updated_at'=>'2021-04-21 20:53:47'
                 ]
         ]);
-        */
+        
     }
 }
